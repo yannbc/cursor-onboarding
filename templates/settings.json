@@ -1,0 +1,117 @@
+{
+    "// CURSOR ONBOARDING - RECOMMENDED SETTINGS": "Optimized for non-developers",
+    
+    "// === EDITOR BASICS ===": "",
+    "editor.fontSize": 14,
+    "editor.fontFamily": "'SF Mono', 'Monaco', 'Menlo', 'Consolas', monospace",
+    "editor.lineHeight": 1.5,
+    "editor.tabSize": 2,
+    "editor.insertSpaces": true,
+    "editor.wordWrap": "on",
+    "editor.lineNumbers": "on",
+    "editor.rulers": [80, 120],
+    
+    "// === VISUAL HELPERS ===": "",
+    "editor.minimap.enabled": true,
+    "editor.bracketPairColorization.enabled": true,
+    "editor.guides.bracketPairs": true,
+    "editor.renderWhitespace": "selection",
+    "editor.showFoldingControls": "always",
+    
+    "// === AUTO-SAVE & FILE MANAGEMENT ===": "",
+    "files.autoSave": "afterDelay",
+    "files.autoSaveDelay": 1000,
+    "files.trimTrailingWhitespace": true,
+    "files.insertFinalNewline": true,
+    
+    "// === WORKBENCH (INTERFACE) ===": "",
+    "workbench.startupEditor": "welcomePage",
+    "workbench.colorTheme": "Dark+",
+    "workbench.iconTheme": "vs-seti",
+    "workbench.editor.enablePreview": false,
+    "workbench.editor.revealIfOpen": true,
+    
+    "// === EXPLORER (FILE TREE) ===": "",
+    "explorer.confirmDelete": true,
+    "explorer.confirmDragAndDrop": true,
+    "explorer.compactFolders": false,
+    
+    "// === SEARCH ===": "",
+    "search.useIgnoreFiles": true,
+    "search.exclude": {
+        "**/node_modules": true,
+        "**/bower_components": true,
+        "**/*.code-search": true,
+        "**/dist": true,
+        "**/build": true
+    },
+    
+    "// === TERMINAL ===": "",
+    "terminal.integrated.fontSize": 13,
+    "terminal.integrated.fontFamily": "'SF Mono', 'Monaco', 'Menlo', monospace",
+    "terminal.integrated.cursorBlinking": true,
+    
+    "// === CURSOR AI FEATURES ===": "",
+    "cursor.chat.enabled": true,
+    "cursor.cpp.enableIntelliSense": true,
+    "cursor.general.enableCodeActions": true,
+    
+    "// === CODE COMPLETION ===": "",
+    "editor.suggestOnTriggerCharacters": true,
+    "editor.acceptSuggestionOnCommitCharacter": true,
+    "editor.acceptSuggestionOnEnter": "on",
+    "editor.quickSuggestions": {
+        "other": true,
+        "comments": false,
+        "strings": true
+    },
+    
+    "// === FORMATTING ===": "",
+    "editor.formatOnSave": true,
+    "editor.formatOnPaste": true,
+    "editor.codeActionsOnSave": {
+        "source.organizeImports": true,
+        "source.fixAll": true
+    },
+    
+    "// === GIT ===": "",
+    "git.enableSmartCommit": true,
+    "git.confirmSync": false,
+    "git.autofetch": true,
+    "scm.diffDecorations": "gutter",
+    
+    "// === EXTENSIONS ===": "",
+    "extensions.autoUpdate": true,
+    "extensions.ignoreRecommendations": false,
+    
+    "// === LANGUAGE SPECIFIC ===": "",
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[json]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[markdown]": {
+        "editor.wordWrap": "on",
+        "editor.quickSuggestions": false
+    },
+    "[python]": {
+        "editor.insertSpaces": true,
+        "editor.tabSize": 4
+    },
+    
+    "// === SECURITY ===": "",
+    "security.workspace.trust.untrustedFiles": "prompt",
+    "security.workspace.trust.banner": "always",
+    
+    "// === PERFORMANCE ===": "",
+    "files.watcherExclude": {
+        "**/.git/objects/**": true,
+        "**/.git/subtree-cache/**": true,
+        "**/node_modules/*/**": true,
+        "**/.hg/store/**": true
+    }
+}
