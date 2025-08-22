@@ -123,8 +123,8 @@ if [ -d "cursor-onboarding" ]; then
     rm -rf cursor-onboarding
 fi
 
-# Note: Replace this URL with your actual repository URL
-REPO_URL="https://github.com/YOUR-USERNAME/cursor-onboarding.git"
+# Official cursor-onboarding repository
+REPO_URL="https://github.com/yannbc/cursor-onboarding.git"
 echo "⬇️  Downloading from repository..."
 echo "(If this fails, you may need to provide the correct repository URL)"
 
