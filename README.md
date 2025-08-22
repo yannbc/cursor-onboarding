@@ -4,13 +4,15 @@
 
 ## 🚀 Quick Start
 
-The easiest way to get started - just copy and paste this into Terminal:
+### 👋 **Never used GitHub or development tools before?**
+**Start here**: [GETTING_STARTED.md](GETTING_STARTED.md) - Complete beginner guide
+
+### 💻 **Ready to set up Cursor?**
+Copy and paste this into Terminal:
 
 ```bash
-cd ~/Desktop && git clone [YOUR-REPO-URL] && cd cursor-onboarding && ./setup.sh
+cd ~/Desktop && git clone https://github.com/yannbc/cursor-onboarding.git && cd cursor-onboarding && ./setup.sh
 ```
-
-*Replace `[YOUR-REPO-URL]` with the actual repository URL*
 
 ## 🎯 What This Does
 
