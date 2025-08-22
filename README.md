@@ -1,11 +1,11 @@
 # Cursor Onboarding
 
-**Simple, foolproof setup to get non-developers up and running with Cursor IDE.**
+**A straightforward setup to get non-developers started with Cursor IDE.**
 
 ## 🚀 Quick Start
 
-### 👋 **Never used GitHub or development tools before?**
-**Start here**: [GETTING_STARTED.md](GETTING_STARTED.md) - Complete beginner guide
+### 👋 **Never used GitHub before?**
+**Start here**: [GETTING_STARTED.md](GETTING_STARTED.md) - Covers the basics
 
 ### 💻 **Ready to set up Cursor?**
 Copy and paste this into Terminal:
@@ -16,13 +16,13 @@ cd ~/Desktop && git clone https://github.com/yannbc/cursor-onboarding.git && cd 
 
 ## 🎯 What This Does
 
-Gets non-technical team members ready to use Cursor in **3 simple steps**:
+Gets non-technical team members ready to use Cursor:
 
 1. **🛠️ Install essentials** - Git, Cursor, basic tools
-2. **🔐 Setup GitHub** - Authentication to access code repositories  
-3. **⚙️ Configure Cursor** - Optimized settings and helpful features
+2. **🔐 Set up GitHub** - Authentication to access code repositories  
+3. **⚙️ Configure Cursor** - Optimised settings and useful features
 
-**Time required:** 10-15 minutes  
+**Time required:** About 15 minutes  
 **Prerequisites:** Mac computer, internet connection
 
 ## 📋 What Gets Installed
@@ -34,8 +34,8 @@ Gets non-technical team members ready to use Cursor in **3 simple steps**:
 
 ### Configuration
 - GitHub authentication setup
-- Optimized editor settings
-- Essential extensions
+- Optimised editor settings
+- Useful extensions
 - Keyboard shortcuts cheat sheet
 - AI features enabled
 

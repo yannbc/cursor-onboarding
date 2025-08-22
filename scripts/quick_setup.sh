@@ -13,7 +13,7 @@ BLUE='\033[0;34m'
 NC='\033[0m'
 
 echo -e "${BLUE}🚀 Quick Cursor Setup${NC}"
-echo "Installing only the essentials..."
+echo "Installing the essentials..."
 echo ""
 
 # Function to check if command exists
@@ -206,7 +206,7 @@ fi
 
 # Final verification and next steps
 echo ""
-echo -e "${GREEN}🎉 Quick Setup Complete!${NC}"
+echo -e "${GREEN}✅ Quick Setup Complete!${NC}"
 echo ""
 echo "✅ What's installed:"
 echo "   • Git (version: $(git --version | cut -d' ' -f3))"
@@ -219,10 +219,10 @@ echo "2. Test Cursor: type 'cursor --help'"
 echo "3. Clone your first repository"
 echo "4. Open it with: cursor ."
 echo ""
-echo "💡 Pro Tips:"
+echo "💡 Tips:"
 echo "• Use 'cursor .' to open current folder in Cursor"
 echo "• Use Cmd+Shift+P for Cursor's command palette"
-echo "• Try Cursor's AI features - they're incredible!"
+echo "• Try Cursor's AI features - they're quite good!"
 echo ""
 echo "🆘 Need help? Run the main setup script and choose option 5 (Troubleshooting)"
 echo ""

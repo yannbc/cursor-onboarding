@@ -26,7 +26,7 @@ cat << "EOF"
 EOF
 echo -e "${NC}"
 
-echo -e "${BLUE}Welcome! This will get you set up with Cursor in 3 simple steps.${NC}"
+echo -e "${BLUE}Welcome! This will get you set up with Cursor.${NC}"
 echo ""
 
 # Function to check if basic setup is done
@@ -53,7 +53,7 @@ while true; do
     echo -e "${YELLOW}=== Cursor Setup Menu ===${NC}"
     echo ""
     echo -e "${CYAN}1)${NC} 🚀 Quick Setup (Recommended)"
-    echo "   Install essentials: Git, Cursor, GitHub setup"
+    echo "   Install essentials: Git, Cursor, GitHub set up"
     echo ""
     echo -e "${CYAN}2)${NC} 📋 Step-by-Step Setup"
     echo "   Manual setup with explanations"
@@ -176,7 +176,7 @@ while true; do
             
             echo ""
             if check_basic_setup; then
-                echo -e "${GREEN}🎉 You're all set up! Ready to use Cursor.${NC}"
+                echo -e "${GREEN}✅ You're all set up! Ready to use Cursor.${NC}"
             else
                 echo -e "${YELLOW}⚠️  Some setup steps needed. Try option 1 (Quick Setup).${NC}"
             fi

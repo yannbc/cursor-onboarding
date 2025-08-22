@@ -1,14 +1,14 @@
-# 🚀 Getting Started - Complete Beginner Guide
+# 🚀 Getting Started - Beginner Guide
 
-**Never used GitHub or development tools? Start here!**
+**Never used GitHub or development tools? Start here.**
 
-This guide assumes you're completely new to development and will walk you through everything step by step.
+This guide assumes you're new to development and covers everything step by step.
 
 ## 📋 What You Need
 
 - **Mac computer** (this guide is for macOS only)
 - **Internet connection**
-- **15-20 minutes of time**
+- **About 20 minutes**
 - **Your work email address**
 
 ## 🎯 Step 1: Create Your GitHub Account
@@ -18,7 +18,7 @@ GitHub is like "Google Drive for code" - it's where developers store and share p
 
 ### Create Account
 1. **Go to**: https://github.com/signup
-2. **Username**: Choose carefully - this will be public and professional
+2. **Username**: Choose something professional - this will be public
    - ✅ Good: `john-smith`, `sarah-jones-dev`, `alex-m`  
    - ❌ Avoid: `cooldude123`, `temporary-name`
 3. **Email**: Use your work email
