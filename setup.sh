@@ -61,19 +61,22 @@ while true; do
     echo -e "${CYAN}3)${NC} ⚙️  Cursor Configuration"
     echo "   Configure Cursor settings and extensions"
     echo ""
-    echo -e "${CYAN}4)${NC} ✅ Check Setup Status"
+    echo -e "${CYAN}4)${NC} 🤖 Set up AGENTS.md"
+    echo "   Create AI assistant guidance for your projects"
+    echo ""
+    echo -e "${CYAN}5)${NC} ✅ Check Setup Status"
     echo "   Verify your installation"
     echo ""
-    echo -e "${CYAN}5)${NC} 🆘 Troubleshooting"
+    echo -e "${CYAN}6)${NC} 🆘 Troubleshooting"
     echo "   Fix common issues"
     echo ""
-    echo -e "${CYAN}6)${NC} 📚 Documentation"
+    echo -e "${CYAN}7)${NC} 📚 Documentation"
     echo "   View guides and help"
     echo ""
-    echo -e "${CYAN}7)${NC} Exit"
+    echo -e "${CYAN}8)${NC} Exit"
     echo ""
     
-    read -p "Choose an option (1-7): " choice
+    read -p "Choose an option (1-8): " choice
     echo ""
     
     case $choice in
@@ -132,6 +135,21 @@ while true; do
             ;;
             
         4)
+            echo -e "${BLUE}🤖 Setting up AGENTS.md...${NC}"
+            echo ""
+            
+            if [ -f "scripts/setup_agents_md.sh" ]; then
+                bash scripts/setup_agents_md.sh
+            else
+                echo -e "${RED}Error: AGENTS.md setup script not found!${NC}"
+            fi
+            
+            echo ""
+            read -p "Press Enter to continue..."
+            clear
+            ;;
+            
+        5)
             echo -e "${BLUE}✅ Setup Status Check${NC}"
             echo ""
             
@@ -186,7 +204,7 @@ while true; do
             clear
             ;;
             
-        5)
+        6)
             echo -e "${BLUE}🆘 Troubleshooting${NC}"
             echo ""
             
@@ -217,7 +235,7 @@ while true; do
             clear
             ;;
             
-        6)
+        7)
             echo -e "${BLUE}📚 Documentation${NC}"
             echo ""
             echo "Available guides:"
@@ -262,7 +280,7 @@ while true; do
             clear
             ;;
             
-        7)
+        8)
             echo -e "${GREEN}Thanks for using Cursor Onboarding!${NC}"
             echo ""
             echo "🎯 Quick tips:"
@@ -275,7 +293,7 @@ while true; do
             ;;
             
         *)
-            echo -e "${RED}Invalid choice. Please enter 1-7.${NC}"
+            echo -e "${RED}Invalid choice. Please enter 1-8.${NC}"
             echo ""
             read -p "Press Enter to try again..."
             clear

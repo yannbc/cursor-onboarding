@@ -46,7 +46,7 @@ Gets non-technical team members ready to use Cursor:
 2. Open Terminal
 3. Navigate to the folder
 4. Run: `./setup.sh`
-5. Follow the friendly menu
+5. Follow the friendly menu (includes AGENTS.md setup)
 
 ### Option 2: Quick Setup
 Run the quick setup directly:
@@ -83,6 +83,7 @@ cursor-onboarding/
 - **Cmd+K**: Select code and ask AI to modify it
 - **Cmd+L**: Chat with AI about your code
 - **Tab**: Accept AI code suggestions
+- **AGENTS.md**: Help AI understand your projects better
 
 ### 🎨 Beginner-Friendly Setup
 - Larger fonts and comfortable spacing
